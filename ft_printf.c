@@ -6,7 +6,7 @@
 /*   By: yaboukir <yaboukir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 12:32:15 by yaboukir          #+#    #+#             */
-/*   Updated: 2024/11/21 00:27:51 by yaboukir         ###   ########.fr       */
+/*   Updated: 2024/11/25 16:49:04 by yaboukir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ static int	format_pf(char f, va_list arg)
 	count = 0;
 	if (f == '%')
 		count = count + ft_putchar_pf('%');
+	else if (f == '\n')
+		count = count + ft_putchar_pf('\n');
 	else if (f == 'c')
 		count = count + ft_putchar_pf(va_arg(arg, int));
 	else if (f == 's')

@@ -6,7 +6,7 @@
 /*   By: yaboukir <yaboukir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 09:55:40 by yaboukir          #+#    #+#             */
-/*   Updated: 2024/11/21 20:30:04 by yaboukir         ###   ########.fr       */
+/*   Updated: 2024/11/25 16:31:47 by yaboukir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 # include <stdarg.h>
 # include <stdio.h>  //this lib just for testing the program / it is forbidden ;)
 # include <unistd.h>
-# include <stdlib.h>
 
 int	ft_putnbr_pf(int n);
 int	ft_putchar_pf(char c);
